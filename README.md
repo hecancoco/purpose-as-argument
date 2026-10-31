@@ -59,7 +59,8 @@ Human reference coding for validation joins the component files on `letter_id`, 
 
 ## Example files
 
-`Allianz 2014.csv` to `Allianz 2019.csv` are example outputs of the decoding step for six Allianz shareholder letters, one file per letter and one row per argument component, with the component's verbatim text and its status. They were generated in a development run with `gpt-4.1-2025-04-14` at temperature 0 using the September 2025 version of the decoding prompt; the current script writes the schema described above, so column names differ in places. The files illustrate the output format only: they have not been validated against human coding and are not results.
+`AstraZeneca 2016.csv` to `AstraZeneca 2020.csv` are example outputs of the categorization step for 5 AstraZeneca shareholder letters, one file per letter, with the component's verbatim text and its status. `decode_AstraZeneca 2016.csv` to `decode_AstraZeneca 2020.csv` are example outputs of the decoding step, one file per letter and one row per argument component, with the component's verbatim text and its status.
+They were generated in a development run with `gpt-4.1-2025-04-14` at temperature 0 using the September 2025 version of the decoding prompt; the current script writes the schema described above, so column names differ in places. The files illustrate the output format only: they have not been validated against human coding and are not results.
 
 ## Status
 
